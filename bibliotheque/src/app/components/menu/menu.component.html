@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,18 +10,59 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Users</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Books</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Borrowing</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
-  </nav>
+  </nav> -->
+
+  <!-- <div class="sidenav">
+    <a href="#">Home</a>
+    <a href="#">Users</a>
+    <a href="#">Books</a>
+    <a href="#">Borrowings</a>
+  </div> -->
+
+
+  <div class="nav-side-menu">
+    <div class="brand">Bibliotheque</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                  <a href="#">
+                  <i class="fa fa-home fa-lg"></i> Home
+                  </a>
+                </li>
+
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                  <a href="#"><i class="fas fa-users"></i>Users <span class="arrow"></span></a>
+                </li>  
+                <ul class="sub-menu collapse" id="service">
+                  <li>Members</li>
+                  <li>Staffs</li>
+                </ul>
+
+                 <li>
+                  <a href="#">
+                  <i class="fas fa-book fa-lg"></i> Books
+                  </a>
+                  </li>
+
+                 <li>
+                  <a href="#">
+                  <i class="fas fa-book-open fa-lg"></i> Borrowings
+                  </a>
+                </li>
+            </ul>
+     </div>
+</div>
+  
