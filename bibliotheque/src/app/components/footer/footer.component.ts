@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-menu',
+  selector: 'app-footer',
   template: `
     <p>
-      menu works!
+      footer works!
     </p>
   `,
   styles: [
   ]
 })
-export class MenuComponent implements OnInit {
+export class FooterComponent implements OnInit {
 
   constructor() { }
 
