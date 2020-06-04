@@ -31,38 +31,6 @@ body {
     border-right: 1px solid #EEEEEE
 }
 
-.facebook {
-    background-color: #3b5998;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 5px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    cursor: pointer
-}
-
-.twitter {
-    background-color: #1DA1F2;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 5px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    cursor: pointer
-}
-
-.linkedin {
-    background-color: #2867B2;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 5px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    cursor: pointer
-}
 
 .line {
     height: 1px;
@@ -75,6 +43,19 @@ body {
     width: 10%;
     font-weight: bold
 }
+.container-fluid{
+    justify-content: center;
+    min-height: 50vh;
+    background-image: url('../../../assets/img/library.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#connexionContainer{
+    opacity: 96%;
+    width: 40vw;
+    margin: auto;
+}
+
 
 .text-sm {
     font-size: 14px !important
