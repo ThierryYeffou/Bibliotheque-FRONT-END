@@ -1,0 +1,24 @@
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Créez un emprunt</h3>
+     <div class="card-body" class="text-center">
+        <button (click)="callForm()" id="bt">
+          {{buttonName}}
+      </button>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <h3>Cloturez un emprunt</h3>
+     <div class="card-body" class="text-center">
+        <a href="#" class="btn1 btn-primary"><i class="fa fa-window-close"> </i></a>
+    </div>
+    </div>
+  </div> 
+</div>
+<ng-container *ngIf="new">
+  <app-create-borrowing></app-create-borrowing>
+</ng-container>
