@@ -7,6 +7,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
+import { BorrowingComponent } from './components/borrowing/borrowing.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ConnexionComponent } from './components/connexion/connexion.component';
     HomepageComponent,
     MenuComponent,
     FooterComponent,
-    ConnexionComponent
+    ConnexionComponent,
+    BorrowingComponent
   ],
   imports: [
     BrowserModule,
