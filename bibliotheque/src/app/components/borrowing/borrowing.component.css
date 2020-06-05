@@ -5,10 +5,9 @@
 }
 
 .card-deck{
-    display: flex;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 100%;
+    
+   
+    
 }
 
 .card{
@@ -18,14 +17,15 @@
     margin-bottom: 40px;
     border: 2px solid black;
     height: 60%;
-    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
 .card-img-top{
-    height: 100%;
     width: 100%;
 }
 
 .card-body{
-    height: 100%;
-    width: 100%;
+    width: 33%;
 }
