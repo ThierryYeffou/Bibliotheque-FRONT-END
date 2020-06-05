@@ -39,25 +39,34 @@
     margin-left: 200px;
     padding-left: 20px;
   } */
+*{
+  max-width: 200px;
+}
 
-
+.menu-list{
+  width: 200px;
+}
+.brand{
+  width: 200px;
+}
 
   .nav-side-menu {
-    overflow: auto;
+    
     font-family: verdana;
     font-size: 12px;
     font-weight: 200;
+    width: 200px !important;
     background-color: #2e353d;
-    position: fixed;
+    display:flex;
+    flex-wrap:wrap;
     top: 0px;
-    width: 200px;
+    
     height: 100%;
     color: #e1ffff;
   }
   .nav-side-menu .brand {
     background-color: #23282e;
     line-height: 50px;
-    display: block;
     text-align: center;
     font-size: 14px;
   }
