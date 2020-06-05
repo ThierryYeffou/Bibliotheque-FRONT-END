@@ -5,6 +5,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { CreateBorrowingComponent } from './components/create-borrowing/create-borrowing.component';
 import { CloseBorrowingComponent } from './components/close-borrowing/close-borrowing.component';
 import { BorrowingComponent } from './components/borrowing/borrowing.component';
+import { ShowOneBorrowingComponent } from './components/show-one-borrowing/show-one-borrowing.component';
 
 
 
@@ -14,6 +15,7 @@ const routes: Routes = [
     {path:'borrowing', component:BorrowingComponent},
     {path:'create-borrowing', component:CreateBorrowingComponent},
     {path:'close-borrowing', component:CloseBorrowingComponent},
+    {path:'show-one-borrowing', component:ShowOneBorrowingComponent},
   
 ];
 

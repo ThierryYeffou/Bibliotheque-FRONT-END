@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CreateBorrowingComponent } from './components/create-borrowing/create-borrowing.component';
 import { CloseBorrowingComponent } from './components/close-borrowing/close-borrowing.component';
 import { BorrowingComponent } from './components/borrowing/borrowing.component';
+import { ShowOneBorrowingComponent } from './components/show-one-borrowing/show-one-borrowing.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BorrowingComponent } from './components/borrowing/borrowing.component';
     FooterComponent,
     BorrowingComponent,
     CreateBorrowingComponent,
-    CloseBorrowingComponent
+    CloseBorrowingComponent,
+    ShowOneBorrowingComponent
   ],
   imports: [
     BrowserModule,
