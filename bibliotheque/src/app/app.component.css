@@ -1,0 +1,8 @@
+#structureMenu{
+    display:flex;
+    
+}
+#main{
+    width: 100%;
+    min-height: 70vh;
+}
