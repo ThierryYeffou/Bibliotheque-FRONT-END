@@ -8,6 +8,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CreateBorrowingComponent } from './components/create-borrowing/create-borrowing.component';
 import { CloseBorrowingComponent } from './components/close-borrowing/close-borrowing.component';
+import { BorrowingComponent } from './components/borrowing/borrowing.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CloseBorrowingComponent } from './components/close-borrowing/close-borr
     HomepageComponent,
     MenuComponent,
     FooterComponent,
+    BorrowingComponent,
     CreateBorrowingComponent,
     CloseBorrowingComponent
   ],

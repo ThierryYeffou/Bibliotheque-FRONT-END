@@ -6,3 +6,9 @@
     width: 100%;
     min-height: 70vh;
 }
+
+#footer{
+    width: 100%;
+    background-color: #23282e;
+    color: #e1ffff;
+}
