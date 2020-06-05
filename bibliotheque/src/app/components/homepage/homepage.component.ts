@@ -10,6 +10,9 @@ export class HomepageComponent implements OnInit {
   public new:boolean = false;
   public buttonName:any = 'new';
 
+  public close:boolean = false;
+  public buttonNameclose:any = 'close';
+
   callForm() {
     this.new = !this.new;
 
@@ -20,6 +23,14 @@ export class HomepageComponent implements OnInit {
       this.buttonName = "new";
   }
 
+  callFormclose(){
+    this.close = !this.close;
+     // CHANGE THE NAME OF THE BUTTON.
+     if(this.close)  
+       this.buttonNameclose = "close";
+      else
+       this.buttonNameclose = "close";
+  }
   constructor() { }
 
   ngOnInit(): void {

@@ -14,11 +14,18 @@
     <div class="card">
       <h3>Cloturez un emprunt</h3>
      <div class="card-body" class="text-center">
-        <a href="#" class="btn1 btn-primary"><i class="fa fa-window-close"> </i></a>
+      <button (click)="callFormclose()" id="btd">
+        {{buttonNameclose}}
+    </button>
+        <!-- <a href="#" class="btn1 btn-primary" (click)="callFormclose()"> {{buttonNameclose}}</a> -->
     </div>
     </div>
   </div> 
 </div>
 <ng-container *ngIf="new">
   <app-create-borrowing></app-create-borrowing>
+</ng-container>
+
+<ng-container *ngIf="close">
+  <app-close-borrowing></app-close-borrowing>
 </ng-container>

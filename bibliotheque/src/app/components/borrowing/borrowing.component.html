@@ -21,7 +21,7 @@
 </div>
 
 <div class="card-deck">
-    <div class="card" *ngFor="let borrowing of allBorrowings">
+    <div class="card" *ngFor="let borrowing of allBorrowings.slice(0, 3);">
         <img src="../../../assets/images/borrow2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">{{borrowing.borrowingDate}}</h5>
