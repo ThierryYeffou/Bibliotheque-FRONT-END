@@ -19,7 +19,7 @@ export class BorrowingComponent implements OnInit {
   getAllBorrowings(): void {
     this.borrowingService
         .getAllBorrowings()
-        .subscribe((result) => (console.log(result)));
+        .subscribe((result) => (this.allBorrowings = result));
 }
 
 }
